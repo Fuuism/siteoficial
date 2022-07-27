@@ -173,56 +173,55 @@
                </section>
                <footer id="footer">
                   <hr id="divider03">
-                  <style>
-                  body {font-family: Arial, Helvetica, sans-serif;}
+               <html>
+<style>
+body {
+    text-align: center;
+}
 
-                  form {
-                    border: 3px solid #f1f1f1;
-                    font-family: Arial;
-                  }
+form {
+  font-family: Source Sans Pro;
+  
+}
 
-                  .container {
-                    padding: 20px;
-                    background-color: #f1f1f1;
-                  }
+input[type=text], input[type=submit] {
+  width: 40%;
+  padding: 12px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  align: center;
+}
 
-                  input[type=text], input[type=submit] {
-                    width: 100%;
-                    padding: 12px;
-                    margin: 8px 0;
-                    display: inline-block;
-                    border: 1px solid #ccc;
-                    box-sizing: border-box;
-                  }
+input[type=submit] {
+  background-color: #309EDB;
+  color: white;
+  border: none;
+}
 
-                  input[type=submit] {
-                    background-color: #309EDB;
-                    color: white;
-                    border: none;
-                  }
+</style>
+<body>
 
-                  input[type=submit]:hover {
-                    opacity: 0.8;
-                  }
-                  </style>
-                  <body>
+                  <div id="revue-embed">
+                     <form action="https://www.getrevue.co/profile/franklinteixeira/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+                        <div class="revue-form-group">
+                           <div class="revue-form-footer">
+                              <p style="font-family:Source Sans Pro;color: #333330;font-size: 90%;text-align: center;font-weight: 300;">Receba novidades por e-mail:</p><br>
+                              </a>
+                           </div>
+                           <label for="member_email"></label>
+                           <input class="revue-form-field" placeholder="E-mail" type="email" name="member[email]" id="member_email">
+                        </div>
+                        <br>
+                        <div class="revue-form-actions">
+                           <input type="submit" value=ASSINAR name="member[subscribe]" id="member_submit">
+                        </div>
+                     </form>
+                  </div>
 
-                  <form action="/action_page.php">
-                    <div class="container">
-                  <p style="font-family:Source Sans Pro;color: #333330;text-align: center;font-weight: 300;">Receba novidades por e-mail!</p>
-                    </div>
 
-                    <div class="container" style="background-color:white">
-                      <input class="revue-form-field" type="text" placeholder=E-mail name="mail" required>
-                    </div>
-
-                    <div class="container">
-                      <input type="submit" value=Assinar>
-                    </div>
-                  </form>
-
-                  </body>
-
+</body>
+</html>
                   <hr id="divider03">
                   <ul id="icons01" class="icons">
                      <li>
