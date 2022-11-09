@@ -204,22 +204,15 @@ input[type=submit] {
 </style>
 <body>
 
-                  <div id="revue-embed">
-                     <form action="https://www.getrevue.co/profile/franklinteixeira/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
-                        <div class="revue-form-group">
-                           <div class="revue-form-footer">
+                  <div>
+                                        <form action="https://tinyletter.com/franklinteixeira" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/franklinteixeira', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+                    
                               <p style="font-family:Source Sans Pro;color: #333330;font-size: 80%;text-align: center;text-transform: uppercase;">Receba novidades por e-mail:</p><br>
-                              </a>
-                           </div>
-                           
-                           <label for="member_email"></label>
+                         
+                           <label for="tlemail"></label>
                                <input type="text" class="revue-form-field" placeholder="E-mail" name="member[email]" id="member_email" required>
-
-                        </div>
-                        <br>
-                        <div class="revue-form-actions">
-                           <input type="submit" value=ASSINAR name="member[subscribe]" id="member_submit">
-                        </div>
+                      
+               <input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" />
                      </form>
                   </div>
 
